@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Built-By: TaG
+Build-Jdk: 11.0.10
+Specification-Title: Spark Project Docker Integration Tests
+Specification-Version: 2.0.3-SNAPSHOT
+Specification-Vendor: The Apache Software Foundation
+Implementation-Title: Spark Project Docker Integration Tests
+Implementation-Version: 2.0.3-SNAPSHOT
+Implementation-Vendor-Id: org.apache.spark
+Implementation-Vendor: The Apache Software Foundation
+Implementation-URL: http://spark.apache.org/
+Created-By: Maven Integration for Eclipse
+

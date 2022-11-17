@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite 
+errors="0" failures="0" hostname="dynaspark2" name="org.apache.spark.util.sketch.BitArraySuite" tests="5" time="0.022" timestamp="2022-11-14T15:51:58">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment">
+    </property>
+    <property 
+    name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64">
+</property>
+    <property name="java.vm.version" value="25.352-b08"> </property>
+    <property name="java.vm.vendor" value="Private Build"> </property>
+    <property name="java.vendor.url" value="http://java.oracle.com/">
+    </property>
+    <property name="path.separator" value=":"> </property>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"> </property>
+    <property name="file.encoding.pkg" value="sun.io"> </property>
+    <property name="sun.java.launcher" value="SUN_STANDARD"> </property>
+    <property name="sun.os.patch.level" value="unknown"> </property>
+    <property 
+    name="java.vm.specification.name" value="Java Virtual Machine Specification">
+</property>
+    <property 
+    name="user.dir" value="/home/rakesh_cse2011/dynaSpark-master/common/sketch">
+</property>
+    <property 
+    name="java.runtime.version" value="1.8.0_352-8u352-ga-1~18.04-b08">
+</property>
+    <property name="spark.ui.enabled" value="false"> </property>
+    <property 
+    name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment">
+</property>
+    <property 
+    name="basedir" value="/home/rakesh_cse2011/dynaSpark-master/common/sketch">
+</property>
+    <property 
+    name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed">
+</property>
+    <property name="os.arch" value="amd64"> </property>
+    <property 
+    name="java.io.tmpdir" value="/home/rakesh_cse2011/dynaSpark-master/common/sketch/target/tmp">
+</property>
+    <property name="derby.system.durability" value="test"> </property>
+    <property name="line.separator" value=" "> </property>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation">
+    </property>
+    <property name="os.name" value="Linux"> </property>
+    <property 
+    name="log4j.configuration" value="file:src/test/resources/log4j.properties">
+</property>
+    <property name="sun.jnu.encoding" value="UTF-8"> </property>
+    <property name="spark.ui.showConsoleProgress" value="false"> </property>
+    <property 
+    name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib">
+</property>
+    <property 
+    name="java.specification.name" value="Java Platform API Specification">
+</property>
+    <property name="java.class.version" value="52.0"> </property>
+    <property 
+    name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers">
+</property>
+    <property name="os.version" value="5.4.0-1092-gcp"> </property>
+    <property name="user.home" value="/home/rakesh_cse2011"> </property>
+    <property name="user.timezone" value=""> </property>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob">
+    </property>
+    <property name="java.specification.version" value="1.8"> </property>
+    <property name="file.encoding" value="UTF-8"> </property>
+    <property name="spark.testing" value="1"> </property>
+    <property name="user.name" value="rakesh_cse2011"> </property>
+    <property 
+    name="java.class.path" value="/home/rakesh_cse2011/dynaSpark-master/common/sketch/target/scala-2.11/test-classes:/home/rakesh_cse2011/dynaSpark-master/common/sketch/target/scala-2.11/classes:/home/rakesh_cse2011/dynaSpark-master/common/tags/target/spark-tags_2.11-2.0.3-SNAPSHOT.jar:/home/rakesh_cse2011/.m2/repository/org/spark-project/spark/unused/1.0.0/unused-1.0.0.jar:/home/rakesh_cse2011/.m2/repository/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6.jar:/home/rakesh_cse2011/.m2/repository/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar:/home/rakesh_cse2011/.m2/repository/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar:/home/rakesh_cse2011/.m2/repository/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar:/home/rakesh_cse2011/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/rakesh_cse2011/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/rakesh_cse2011/.m2/repository/com/novocode/junit-interface/0.11/junit-interface-0.11.jar:/home/rakesh_cse2011/.m2/repository/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar">
+</property>
+    <property name="java.vm.specification.version" value="1.8"> </property>
+    <property name="sun.arch.data.model" value="64"> </property>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre">
+    </property>
+    <property 
+    name="sun.java.command" value="org.scalatest.tools.Runner -R /home/rakesh_cse2011/dynaSpark-master/common/sketch/target/scala-2.11/classes /home/rakesh_cse2011/dynaSpark-master/common/sketch/target/scala-2.11/test-classes -o -f /home/rakesh_cse2011/dynaSpark-master/common/sketch/target/surefire-reports/SparkTestSuite.txt -u /home/rakesh_cse2011/dynaSpark-master/common/sketch/target/surefire-reports/.">
+</property>
+    <property name="java.specification.vendor" value="Oracle Corporation">
+    </property>
+    <property name="user.language" value="en"> </property>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"> </property>
+    <property name="java.vm.info" value="mixed mode"> </property>
+    <property name="java.version" value="1.8.0_352"> </property>
+    <property 
+    name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext">
+</property>
+    <property 
+    name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes">
+</property>
+    <property 
+    name="spark.test.home" value="/home/rakesh_cse2011/dynaSpark-master">
+</property>
+    <property name="java.vendor" value="Private Build"> </property>
+    <property name="java.awt.headless" value="true"> </property>
+    <property name="java.specification.maintenance.version" value="4">
+    </property>
+    <property name="file.separator" value="/"> </property>
+    <property 
+    name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/">
+</property>
+    <property name="spark.unsafe.exceptionOnMemoryLeak" value="true">
+    </property>
+    <property name="sun.cpu.endian" value="little"> </property>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"> </property>
+    <property name="test.src.tables" value="__not_used__"> </property>
+    <property name="sun.cpu.isalist" value=""> </property>
+  </properties>
+  <testcase 
+  name="error case when create BitArray" classname="org.apache.spark.util.sketch.BitArraySuite" time="0.001">
+</testcase>
+  <testcase 
+  name="bitSize" classname="org.apache.spark.util.sketch.BitArraySuite" time="0.0">
+</testcase>
+  <testcase 
+  name="set" classname="org.apache.spark.util.sketch.BitArraySuite" time="0.0">
+</testcase>
+  <testcase 
+  name="normal operation" classname="org.apache.spark.util.sketch.BitArraySuite" time="0.005">
+</testcase>
+  <testcase 
+  name="merge" classname="org.apache.spark.util.sketch.BitArraySuite" time="0.01">
+</testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
